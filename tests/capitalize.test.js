@@ -9,10 +9,10 @@ import assert from "assert"; // Import the assert library
 // }
 
 // console.log("Все тесты пройдены!");
-assert.equal(capitalize(""), "");
+assert.strictEqual(capitalize(""), "");
 // Первый параметр actual – то, что пришло
 // Второй параметр expected – то, что ожидает тест
 // Правильный порядок аргументов имеет большое значение при анализе ошибки
-assert.equal(capitalize("hello"), "Hello");
+assert.strictEqual(capitalize("hello"), "Hello");
 
 console.log("All tests passed!");
